@@ -1,0 +1,12 @@
+{
+  "daily_steps": 8500,
+  "miles_walked": 3.4,
+  "saved_routes": [
+    {"name": "Morning Park Loop", "distance": 2.1, "elevation": "Flat"},
+    {"name": "Hillside Trail", "distance": 4.5, "elevation": "Steep"}
+  ],
+  "milestones": [
+    {"title": "First 10k Steps", "unlocked": true},
+    {"title": "Mountain Climber", "unlocked": false}
+  ]
+}

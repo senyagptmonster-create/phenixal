@@ -1,10 +1,9 @@
-import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
-import 'package:phenixal/product/product_app.dart';
+import 'package:phenixal/phenixal_app.dart';
 
 void main() {
-  testWidgets('Smoke test', (WidgetTester tester) async {
-    await tester.pumpWidget(const MaterialApp(home: ProductApp()));
-    expect(find.byType(ProductApp), findsOneWidget);
+  testWidgets('PhenixalApp root smoke test', (WidgetTester tester) async {
+    await tester.pumpWidget(const PhenixalApp());
+    expect(find.byType(PhenixalApp), findsOneWidget);
   });
 }
